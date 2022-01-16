@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 20px;
+	padding: 0px;
+	background-color: #00071c;
+	color: white;
+	font-family: sans-serif;
+}
+
+.heading{
+	text-decoration: underline;
+	font-size:40px;
+	font-weight:bolder;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border: 5px solid #575757;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.heading:hover{
+	background-color: green;
+	color: black;
+	border : 5px solid white;
+	border-radius: 10px;
+}
+
+.container{
+	text-align: center;
+	padding: 10px;
+	margin : 5px;
+	border-radius: 5px;
+}
+
+.form{
+	margin : 20px;
+	padding: 20px;
+}
+
+.label{
+	font-size: large;
+	font-weight: bolder;
+	margin-right: 20px;
+	padding:5px;
+}
+
+.input{
+	width: 70%;
+	padding : 10px;
+	margin : 10px;
+	text-decoration: blink;
+	font-size: 25px;
+	text-align: left;
+	border-bottom: 5px solid #575757; 
+	border-radius: 10px;
+}
+
+.input:hover{
+	background-color: white;
+	color: black;
+	border : 5px solid green;
+	border-radius: 5px;
+}
+
+.linkheading{
+	height: 100px;
+	text-align: center;
+	font-size: 25px;
+	padding:10px;
+	margin:20px;
+}
+
+#submit{
+	background-color:white;
+	color:black;
+	cursor :pointer;
+	text-align:center;
+	width:200px;
+	font-size: 20px;
+	padding:10px;
+	margin: 10px;
+	border : 4px solid #575757;
+}
+
+#submit:hover{
+	background-color: green;
+	color: black;
+	border : 5px solid white;
+	border-radius: 10px;
+}
+
+.link{
+	border : 3px solid red;
+	font-size: 30px;
+	background-color: white;
+	color: black;
+	border : 5px solid green;
+	border-radius: 10px;
+	padding : 10px;
+	text-decoration: none;
+	font-weight: bolder;
+	width: 100%;
+}
+
+.link:hover {
+	background-color: green;
+	color: black;
+	border : 5px solid white;
+	border-radius: 10px;
+}
